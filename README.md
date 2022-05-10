@@ -14,7 +14,7 @@ It's pretty easy, I'll suggest using vercel if you don't want to waste much time
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fasheeeshh%2Fonigiri)
 
 ### Set as your startpage
-Jsut set your browser's home url to https://onigir.vercel.app/ if you're using my instance or your own link that you get from vercel after deploying.
+Jsut set your browser's home url to https://onigiri.vercel.app/ if you're using my instance or your own link that you get from vercel after deploying.
 
 ## 🍙 Customize
 To customize the startpage according to you follow these steps:
