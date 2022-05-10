@@ -1,0 +1,157 @@
+[
+    {
+        "name": "github",
+        "link": "https://github.com",
+        "icon": "github"
+    },
+    {
+        "name": "gmail",
+        "link": "https://gmail.com",
+        "icon": "gmail"
+    },
+    {
+        "name": "notion",
+        "link": "https://notion.com",
+        "icon": "notion"
+    },
+    {
+        "name": "dev.to",
+        "link": "https://dev.to",
+        "icon": "devdotto"
+    },
+    {
+        "name": "vercel",
+        "link": "https://vercel.com",
+        "icon": "vercel"
+    },
+    {
+        "name": "netlify",
+        "link": "https://netlify.com",
+        "icon": "netlify"
+    },
+    {
+        "name": "cloudflare",
+        "link": "https://cloudflare.com",
+        "icon": "cloudflare"
+    },
+    {
+        "name": "railway",
+        "link": "https://railway.app",
+        "icon": "railway"
+    },
+    {
+        "name": "heroku",
+        "link": "https://heroku.app",
+        "icon": "heroku"
+    },
+    {
+        "name": "youtube",
+        "link": "https://youtube.com",
+        "icon": "youtube"
+    },
+    {
+        "name": "imgur",
+        "link": "https://imgur.com",
+        "icon": "imgur"
+    },
+    {
+        "name": "producthunt",
+        "link": "https://producthunt.com",
+        "icon": "producthunt"
+    },
+    {
+        "name": "mdn",
+        "link": "https://developer.mozilla.org/en-US/",
+        "icon": "mdnwebdocs"
+    },
+    {
+        "name": "instagram",
+        "link": "https://instagram.com",
+        "icon": "instagram"
+    },
+    {
+        "name": "twitter",
+        "link": "https://twitter.com",
+        "icon": "twitter"
+    },
+    {
+        "name": "hashnode",
+        "link": "https://hashnode.com",
+        "icon": "hashnode"
+    },
+    {
+        "name": "unsplash",
+        "link": "https://unsplash.com",
+        "icon": "unsplash"
+    },
+    {
+        "name": "tailwind docs",
+        "link": "https://tailwindcss.com/docs/",
+        "icon": "tailwindcss"
+    },
+    {
+        "name": "translate",
+        "link": "https://translate.google.com",
+        "icon": "googletranslate"
+    },
+    {
+        "name": "last.fm",
+        "link": "https://last.fm",
+        "icon": "lastdotfm"
+    },
+    {
+        "name": "amazon",
+        "link": "https://amazon.com",
+        "icon": "amazon"
+    },
+    {
+        "name": "twitch",
+        "link": "https://twitch.tv",
+        "icon": "twitch"
+    },
+    {
+        "name": "canva",
+        "link": "https://canva.com",
+        "icon": "canva"
+    },
+    {
+        "name": "codepen",
+        "link": "https://codepen.io",
+        "icon": "codepen"
+    },
+    {
+        "name": "replit",
+        "link": "https://repl.it",
+        "icon": "replit"
+    },
+    {
+        "name": "pinterest",
+        "link": "https://pinterest.com",
+        "icon": "pinterest"
+    },
+    {
+        "name": "quora",
+        "link": "https://quora.com",
+        "icon": "quora"
+    },
+    {
+        "name": "reddit",
+        "link": "https://reddit.com",
+        "icon": "reddit"
+    },
+    {
+        "name": "glitch",
+        "link": "https://glitch.com",
+        "icon": "glitch"
+    },
+    {
+        "name": "fonts",
+        "link": "https://fonts.google.com",
+        "icon": "googlefonts"
+    },
+    {
+        "name": "drive",
+        "link": "https://drive.google.com",
+        "icon": "googledrive"
+    }
+]
