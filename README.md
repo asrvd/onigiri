@@ -2,7 +2,7 @@
   <img src="/public/favicon.png" width="100px" height="100px">
   <h3>onigiri</h3>
   <p>a very dark, minimal, powerful and fully customizable startpage made using vue.js and tailwind.</p>
-  <img src="https://user-images.githubusercontent.com/68690233/167636424-624acbe7-a5c0-4e72-b857-cf5d9d893202.png">
+  <img src="https://user-images.githubusercontent.com/68690233/167764295-d72e98d6-fe5b-4dee-b24d-16f34eabadbe.png" />
 </div>
 
 ## ✨ Usage
