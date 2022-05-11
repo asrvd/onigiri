@@ -34,7 +34,7 @@ export default {
 
 <template>
     <button :class="isOpen ? 'right-2 md:top-4' : 'left-2 md:left-auto md:right-2 md:top-4'" class="bg-zinc-500 hover:bg-zinc-600 duration-500 border-2 border-zinc-400 text-white shadow-2xl rounded-full text-md p-2 absolute lg:hidden top-4 z-[60] font-[700]" v-on:click="toggleMenu">{{!isOpen ? '🍙' : '❌'}}</button>
-    <div :class="isOpen ? 'absolute' : 'hidden'" class="lg:block text-left bg-white/10 h-screen w-screen pl-2 pr-2 md:w-screen lg:w-1/5 overflow-x-hidden overflow-y-hidden z-50 left-0 backdrop-blur-md md:backdrop-blur-md lg:backdrop-blur-none lg:bg-transparent">
+    <div :class="isOpen ? 'absolute' : 'hidden'" class="lg:block text-left bg-white/10 h-screen w-screen pl-2 lg:pl-6 lg:pr-6 pr-2 md:w-screen lg:w-1/5 overflow-x-hidden overflow-y-hidden z-50 left-0 backdrop-blur-md md:backdrop-blur-md lg:backdrop-blur-none lg:bg-transparent">
         <div class="mt-4 p-2 h-[5%] min-h-[5%] cursor-pointer w-3/5 bg-zinc-300 rounded drop-shadow-2xl flex flex-row items-center gap-3 text-black font-bolder lg:w-full md:w-2/5">
             <div class="w-[6%] bg-zinc-300 flex flex-col justify-center align-center items-center h-[100%] rounded-tl rounded-bl">
             <SearchIcon @click="filterlist" class="path-white text-black cursor-pointer"/>

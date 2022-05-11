@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="z-10 relative justify-center items-left p-0 pl-0 lg:p-4 md:p-4 gap-2 lg:gap-4 md:gap-2 bg-black h-screen w-full lg:w-4/5 md:w-full flex flex-row">
+    <div class="z-10 relative justify-center items-left p-0 pl-0 lg:p-4 lg:pl-0 md:p-4 gap-2 lg:gap-4 md:gap-2 bg-black h-screen w-full lg:w-4/5 md:w-full flex flex-row">
         <div class="flex flex-col w-1/4 h-full bg-gray-400 rounded hidden md:flex lg:flex">
             <img src="https://i.pinimg.com/564x/c1/1d/04/c11d04e2ca9a9d4879b13581fa83132e.jpg" class="w-full h-full object-cover rounded" />
         </div>
