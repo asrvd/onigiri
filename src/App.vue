@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-row bg-gray-700 w-screen h-screen justify-center align-center">
+  <div class="flex flex-row bg-black w-full h-sfull min-w-screen min-h-screen justify-center align-center">
     <InfiniteSlide />
     <Home :test="ok" />
   </div>
