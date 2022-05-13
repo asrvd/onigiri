@@ -6,6 +6,7 @@
 </div>
 
 ## ✨ Usage
+**README WIP**
 You can either host your own instance of this startpage or use [this](https://onigiri.vercel.app/).
 
 ### Deploy you own instance
