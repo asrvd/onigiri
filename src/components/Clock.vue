@@ -16,16 +16,9 @@ export default {
   created() {
     console.log(config)
     this.interval = setInterval(() => {
-      this.time = Intl.DateTimeFormat(navigator.language, {
-        hour: 'numeric',
-        minute: 'numeric',
-      }).format().toLowerCase().slice(0, -3)
-      this.date = Intl.DateTimeFormat(navigator.language, {
-        weekday: 'long',
-        month: 'long',
-        day: 'numeric',
-        year: 'numeric',
-      }).format().toLowerCase()
+      var date = new Date();
+      this.time = date.toLocaleTimeString().replace(/:\d{2}\s/,' ').toLocaleLowerCase();
+      this.date = date.toLocaleDateString();
     }, 1000)
   },
 }
