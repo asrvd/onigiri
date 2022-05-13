@@ -30,7 +30,7 @@ export default {
         <div class="w-[10%] lg:w-[6%] md:w-[6%] flex flex-col justify-center align-center items-center h-[80%] lg:h-[60%] md:h-[60%] rounded-tl rounded-bl" :style="{backgroundColor: config.searchBarColor}">
         <SearchIcon @click="search" class="path-white cursor-pointer" :style="{color: config.searchBarIconColor}"/>
         </div>
-        <input class="items-center p-4 pl-0 w-[90%] lg:w-[94%] md:w-[94%] h-[80%] lg:h-[60%] md:h-[60%] focus:outline-none outline-none border-none rounded-tr rounded-br font-[500] font-sans text-[1.2rem]" placeholder="search duckduckgo.." v-model="searchterm" @keyup.enter="search" autofocus :style="{backgroundColor: config.searchBarColor, color: config.searchBarTextColor}"/>
+        <input class="items-center p-4 pl-0 w-[90%] lg:w-[94%] md:w-[94%] h-[80%] lg:h-[60%] md:h-[60%] focus:outline-none outline-none border-none rounded-tr rounded-br font-[600] font-sans text-[1.2rem]" :placeholder="`search ${config.searchEngine}..`" v-model="searchterm" @keyup.enter="search" autofocus :style="{backgroundColor: config.searchBarColor, color: config.searchBarTextColor}"/>
     </div>
 </template>
 
