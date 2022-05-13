@@ -1,21 +1,24 @@
 <script>
 import InfiniteSlide from './components/InfiniteSlide.vue';
 import Home from './components/Home.vue';
+import { config } from '../config';
 export default {
   components: {
     InfiniteSlide,
-    Home
+    Home,
+    
   },
   data() {
     return {
-      ok: 'Hello from parent'
+      ok: 'Hello from parent',
+      config
     }
   }
 }
 </script>
 
 <template>
-  <div class="flex flex-row bg-black w-full h-sfull min-w-screen min-h-screen justify-center align-center">
+  <div class="flex flex-row w-full h-full min-w-screen min-h-screen justify-center align-center" :style="{backgroundColor: config.backgroundColor}">
     <InfiniteSlide />
     <Home :test="ok" />
   </div>
@@ -28,6 +31,5 @@ export default {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  color: #2c3e50;
 }
 </style>
