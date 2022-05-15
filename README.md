@@ -2,7 +2,7 @@
   <img src="/public/favicon.png" width="100px" height="100px">
   <h3>onigiri</h3>
   <p>a very dark, minimal, powerful and fully customizable startpage made using vue.js and tailwind.</p>
-  <img src="https://user-images.githubusercontent.com/68690233/167764295-d72e98d6-fe5b-4dee-b24d-16f34eabadbe.png" />
+  <img src="https://i.imgur.com/46kgWXu.png" />
 </div>
 
 ## 🍙 Customize
@@ -55,7 +55,9 @@ git push -f https://github.com/your-username/onigiri.git main:gh-pages
 6. Click on the `Pages` tab.
 7. Change publishing branch to `gh-pages`.
 8. Enfore `https` and hit save. It should look like this:
+
 ![screenshot](https://i.imgur.com/y6xngsY.png)
+
 9. Now you can see your startpage on `https://your-username.github.io/onigiri/`.
 10. Simply change your browser's home page and new tab page to `https://your-username.github.io/onigiri/` and you are done.
 
