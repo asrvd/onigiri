@@ -34,7 +34,7 @@ You can host this startpage on `GitHub Pages`, `Vercel`, `Netlify` or any other 
 1. [Fork](https://github.com/asheeeshh/onigiri/fork) the Repo.
 2. Clone the fork. Replace `your_username` with your github username here.
 ```bash
-git clone https://github.com/your_username/onigiri.git
+git clone -b pages https://github.com/your_username/onigiri.git
 ```
 3. Run it to see if everything looks good and then you can customise it.
 ```bash
