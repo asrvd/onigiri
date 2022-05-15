@@ -39,6 +39,7 @@ git clone -b pages https://github.com/your_username/onigiri.git
 3. Run it to see if everything looks good and then you can customise it.
 ```bash
 cd onigiri
+npm install
 npm run dev
 ```
 4. Once you have customised it and commited the changes to your fork, run these command in terminal. Replace `your_username` with your github username here.
@@ -69,7 +70,7 @@ Follow the same steps as above till `Step 3`.
 ```bash
 git add .
 git commit -m 'deploy'
-git push -u origin main
+git push
 ```
 3. Create an account on [Vercel](https://vercel.com/) if you don't already have one.
 4. Deploy your startpage by choosing the repository.
