@@ -73,7 +73,7 @@ git commit -m 'deploy'
 git push
 ```
 3. Create an account on [Vercel](https://vercel.com/) if you don't already have one.
-4. Deploy your startpage by choosing the repository.
+4. Deploy your startpage by choosing the repository. Make sure you set the production branch to `pages` and not `main`!!
 5. Change your home page and new tab page to the link given by vercel.
 
 ## 🙋‍♂️ Have Questions?
