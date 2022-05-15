@@ -5,31 +5,9 @@
   <img src="https://user-images.githubusercontent.com/68690233/167764295-d72e98d6-fe5b-4dee-b24d-16f34eabadbe.png" />
 </div>
 
-## ✨ Usage
-**README WIP**
-You can either host your own instance of this startpage or use [this](https://onigiri.vercel.app/).
-
-### Deploy you own instance
-It's pretty easy, I'll suggest using vercel if you don't want to waste much time, create an account on [Vercel](https://vercel.com/) if you don't already have one and then just click here on this button.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fasheeeshh%2Fonigiri)
-
-### Set as your startpage
-Jsut set your browser's home url to https://onigiri.vercel.app/ if you're using my instance or your own link that you get from vercel after deploying.
-
 ## 🍙 Customize
-To customize the startpage according to you follow these steps:
-
-Fork the repo and clone it
-```bash
-git clone https://github.com/asheeeshh/onigiri.git
-```
-Open the app using your code editor [I'm using vs code here].
-```bash
-cd onigiri
-code .
-npm run dev
-```
+### General Customization
+You can customize all the **colors** and **images** used in the startpage by changing [/config.js](/config.js) accordingingly.
 
 ### Customizing links
 Go to [`/src/applist.json`](/src/applist.json).
@@ -47,18 +25,53 @@ Suppose you want to add `FaceBook` to the list, just add the following snippet t
 ]
 ```
 
-All the ions are taken from [Simple Icons](https://simpleicons.org/s). You an check the icon name for your added app [here](https://github.com/simple-icons/simple-icons/blob/develop/slugs.md).
+All the ions are taken from [Simple Icons](https://simpleicons.org/s). You can check the icon name for your added app [here](https://github.com/simple-icons/simple-icons/blob/develop/slugs.md).
 
-### Customizing images
-There are two images used in the startpage.
+## 🍀 Usage
+You can host this startpage on `GitHub Pages`, `Vercel`, `Netlify` or any other platform you may like. Though I would recmmend using vercel if you dont want to waste much time. First of all you will need to create your own fork of this repository and clone it.
 
-- Vertical Image: https://github.com/asheeeshh/onigiri/blob/665fb34867a0bae436ebb9ba08767bbf0ecbeafa/src/components/Home.vue#L23
-- Banner Image: https://github.com/asheeeshh/onigiri/blob/665fb34867a0bae436ebb9ba08767bbf0ecbeafa/src/components/Home.vue#L31
+### Using GitHub Pages
+1. [Fork](https://github.com/asheeeshh/onigiri/fork) the Repo.
+2. Clone the fork. Replace `your_username` with your github username here.
+```bash
+git clone https://github.com/your_username/onigiri.git
+```
+3. Run it to see if everything looks good and then you can customise it.
+```bash
+cd onigiri
+npm run dev
+```
+4. Once you have customised it and commited the changes to your fork, run these command in terminal. Replace `your_username` with your github username here.
+```bash
+npm run build
+cd dist
+git init
+git checkout -b main
+git add -A
+git commit -m 'deploy'
+git push -f https://github.com/your-username/onigiri.git main:gh-pages
+```
+5. Head over to your GitHub Repository Settings.
+6. Click on the `Pages` tab.
+7. Change publishing branch to `gh-pages`.
+8. Enfore `https` and hit save. It should look like this:
+![screenshot](https://i.imgur.com/y6xngsY.png)
+9. Now you can see your startpage on `https://your-username.github.io/onigiri/`.
+10. Simply change your browser's home page and new tab page to `https://your-username.github.io/onigiri/` and you are done.
 
-You can change the images by changing the `src` in the `<img />` tag.
+### Using Vercel
+Follow the same steps as above till `Step 3`.
 
-### Customizing colors
-You can customize the colors too if you have some basic knowledge of tailwind css.
+1. Customise the startpage.
+2. Commit the changes.
+```bash
+git add .
+git commit -m 'deploy'
+git push -u origin main
+```
+3. Create an account on [Vercel](https://vercel.com/) if you don't already have one.
+4. Deploy your startpage by choosing the repository.
+5. Change your home page and new tab page to the link given by vercel.
 
 ## 🙋‍♂️ Have Questions?
 Create an issue and I'll be glad to help you out!
